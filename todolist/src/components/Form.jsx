@@ -56,7 +56,7 @@ const Form = () => {
       <div className="mt-10">
         {TodoList.map((TodoItem, index) => (
           <>
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-row justify-between gap-2">
               <div className="bg-blue-500 py-2 px-6 rounded-md flex justify-between items-start mt-2">
                 <h2 className="font-normal text-[18px]" key={index}>
                   {TodoItem}
